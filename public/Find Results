@@ -1,0 +1,29 @@
+Searching 1 file for "ruby on rails"
+
+Unable to open /Users/dszeto/refresher/chapone
+0 matches across 0 files
+
+
+Searching 63 files for "ruby on rails"
+
+/Users/dszeto/refresher/one/public/index.html:
+    2  <html>
+    3    <head>
+    4:     <title>Ruby on Rails: Welcome aboard</title>
+    5      <style type="text/css" media="screen">
+    6        body {
+    .
+  205          <div id="header">
+  206            <h1>Welcome aboard</h1>
+  207:           <h2>You&rsquo;re riding Ruby on Rails!</h2>
+  208          </div>
+  209  
+
+/Users/dszeto/refresher/one/README.md:
+    1: # Ruby on Rails Tutorial: first application
+    2  
+    3  This is the first application for
+    4: [*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/)
+    5  by [Michael Hartl](http://michaelhartl.com/).
+
+4 matches across 2 files

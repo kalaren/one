@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>One</title>
+  
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <title>Audio Recorder</title>
+  <%= javascript_include_tag "audiodisplay" %>
+  <%= javascript_include_tag "recorder" %>
+  <%= javascript_include_tag "main" %>
+
+	<style>
+	body { font: 14pt Arial, sans-serif; background: lightgrey; }
+	select { font: 14pt Arial, sans-serif; }
+	body { text-align: center; margin-top: 12pt;}
+	canvas { display: inline-block; background: #202020; box-shadow: 0px 0px 10px blue;}
+	#record.recording { background: red;
+	background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); }
+	</style>
 </head>
 <body>
 
@@ -12,3 +25,4 @@
 
 </body>
 </html>
+
